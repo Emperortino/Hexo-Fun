@@ -80,8 +80,8 @@ theme: Sakura
 deploy:
   type: git
   repo: 
-    github: git@github.com:Emperortino/Emperortion.github.io.git
-    # github: https://github.com/Emperortino/Emperortion.github.io.git
+    github: git@github.com:Emperortino/Emperortino.github.io.git
+    # github: https://github.com/Emperortino/Emperortino.github.io.git
     #coding: https://git.coding.net/hojun/hojun.git
   branch: master
 
@@ -90,7 +90,7 @@ backup:
   type: git
   message: backup my blog of https://Emperortino.github.io/
   repository:
-    github: https://github.com/Emperortino/Emperortion.github.io.git,backup
+    github: https://github.com/Emperortino/Emperortino.github.io.git,backup
     # coding: https://git.coding.net/hojun/hojun.git,backup
 
 #RSS
