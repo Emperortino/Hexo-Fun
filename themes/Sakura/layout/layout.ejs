@@ -20,9 +20,25 @@
       </div>
     </div>
   </section>
+
+
+  <!-- 实现换肤功能 -->
+  <%- partial('_partial/setdisplay') %> 
+  <%- partial('_partial/set', null, {cache: !config.relative_link}) %>
+
   <%- partial('_partial/mheader', null, {cache: !config.relative_link}) %>
   <%- partial('_partial/aplayer', null, {cache: !config.relative_link}) %>
+
+
+  <!-- 闲聊么 -->
+  <script>
+    var xlm_wid='16021';
+    var xlm_url='https://www.xianliao.me/';
+  </script>
+  <script type='text/javascript' charset='UTF-8' src='https://www.xianliao.me/embed.js'></script>
+                                                
   
+  <!-- live2d -->
   <script src="https://cdn.jsdelivr.net/gh/Emperortino/Live--2d/autoload.js"></script>
 </body>
 </html>
